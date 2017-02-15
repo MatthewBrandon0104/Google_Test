@@ -17,8 +17,16 @@ nav ul li {
     display: inline;
     position: relative;
     top: 18px;
-    padding: 0 15px;
+    padding: 0 10px;
     
+    color: grey;
+    
+}
+
+nav ul img {
+    margin: 0 auto;
+    position: relative;
+    bottom: 10px;
 }
 
 .center {
@@ -34,6 +42,15 @@ nav ul li {
     transform: translate(-50%,-50%);
     
     
+}
+
+#micro {
+    position: absolute;
+    right: 40px;
+    top: 227px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
 }
 
 .footer {
@@ -111,6 +128,8 @@ input {
     float: left;
     display: inline;
     padding: 0px 10px;
+    
+    color: grey;
 }
 
 #footer-left {
@@ -124,7 +143,7 @@ input {
     display: inline;
     padding: 0px 10px;
     
-    color: black;
+    color: grey;
 }
 
 #footer-right {
