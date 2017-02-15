@@ -38,7 +38,7 @@ nav {
 input {
     width: 450px;
     height: 35px;
-    margin-top: 112px;
+    margin-top: 115px;
     
     position: absolute;
     top: 50%;
@@ -48,4 +48,46 @@ input {
     border: .25px solid #b7b7b7;
     border-radius: 2px;
     box-shadow: 5px 5px 20px 0px rgb(1,1,1);
+}
+
+.button-left {
+    background-color: #e3e3e3;
+    height: 40px;
+    width: 145px;
+    margin-top: 170px;
+    
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+    
+    text-align: center;
+    
+}
+
+.button-right {
+    background-color: #e3e3e3;
+    height: 40px;
+    width: 145px;
+    margin-top: 170px;
+    
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%,-50%);
+    
+    text-align: center;
+    
+}
+
+.center p {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
